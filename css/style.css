@@ -35,7 +35,13 @@ a.flex {
     display: flex;
     flex-flow: row-reverse;
 }
-
+.position-relative {
+    position: relative;
+}
+.d-inline-flex {
+    display: inline-flex;
+    flex-flow: row-reverse;
+}
 p.m-0.pt-1 {
     margin: 0;
 }
@@ -64,7 +70,7 @@ p.m-0.pt-1 {
     position: relative;
 }
 
-.mr-3 {
+.mr-60 {
     margin-right: 60px;
 }
 
@@ -146,6 +152,10 @@ img.img-header {
         list-style: none;
         justify-content: center;
         margin: 0;
+        border-bottom: solid 1px #dadada;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 10px;
     }
 
         .inputs ul li {
@@ -161,7 +171,165 @@ img.img-header {
 .inputs-header svg {
     margin-bottom: 5px;
 }
+.inputs ul li:hover {
+    cursor: pointer;
+}
+.text-right {
+    text-align: right;
+}
+.one-direction {
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.a-pill-dropdown__caret {
+    transform: rotate(
+90deg);
+}
+.inputs-header {
+    max-width: 1200px;
+    margin: auto;
+    background: #fff;
+    border-radius: 5px;
+    padding: 25px 0 25px 0;
+    border: solid 1px #dadada;
+    box-shadow: 0 2px 1px -1px #dadada;
+}
+.ml-1 {
+    margin-left: 8px;
+}
+.mr-3 {
+    margin-right: 10px;
+}
+li.active-tab {
+    color: #0077db;
+    position: relative;
+}
+a.changeicn {
+    border: solid 1px #9a9a9a;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    top: 50%;
+    background: white;
+}
+.start-trip input {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: none !important;
+}
+.filters input {
+    padding: 7px;
+    font-size: 14px;
+    text-align: center;
+    min-width: 200px;
+    border-radius: 5px;
+    border: solid 1px #bfbfbf;
+    font-family: 'yekan';
+    line-height: 25px;
+}
+.dest-trip input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.filters {
+    text-align: right;
+    padding: 0 35px;
+    display: flex;
+    flex-flow: row-reverse;
+}
+.changeicn svg {
+    margin-bottom: 0;
+}
+li.active-tab:after {content: "";bottom: -10px;width: 110px;height: 4px;background: #0077db;position: relative;border-top-right-radius: 4px;border-top-left-radius: 4px;}
+.start-date input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    min-width: auto;
+    width: 150px;
+}
+.end-date input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    min-width: auto;
+    width: 150px;
+}
+.passengers input {
+    min-width: auto;
+    margin-right: 10px;
+    position: relative;
+    width: 130px;
+    text-align: right;
+    padding-right: 20px;
+}
+.passengers {
+    position: relative;
+}
+span.pass-label {
+    position: absolute;
+    top: -7px;
+    z-index: 99;
+    right: 20px;
+    font-size: 10px;
+    background: #fff;
+    padding: 0 5px;
+}
+a.search-btn {
+    background: #fdb913;
+    color: #333333;
+}
+.sliders {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.slide1 {
+    margin-right: 15px;
+}
+
+.slide img {
+    max-width: 100%;
+    border-radius: 7px;
+}
+.application {
+    max-width: 1030px;
+    margin: auto;
+    text-align: right;
+    padding: 40px 80px;
+    padding-bottom: 0;
+    background: #fff;
+    border: solid 1px #dadada;
+    border-radius: 7px;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+}
+.help-btn {
+    font-size: 14px;
+    background: #00569e;
+    color: #fff;
+    padding: 12px 20px !important;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+svg {
+    vertical-align: middle;
+}
 @media only screen and (max-width: 768px) {
     .topnav {
         display: block;
@@ -177,14 +345,41 @@ img.img-header {
         display: block !important;
         margin-right: 0;
     }
+    .inputs ul {
+        display: block;
+    }
+    .inputs ul li {
+        margin-bottom: 20px;
+    }
+    img.img-header {
+        height: 250px;
+        object-fit: cover;
+    }
 }
 
 
-.inputs-header {
-    max-width: 1100px;
-    margin: auto;
-    background: #fff;
+.app-img {
+    margin-left: 60px;
+}
+
+.m-button {
+    text-decoration: none;
     border-radius: 5px;
-    padding: 25px;
-    border: solid 1px #dadada;
+    padding: 10px 60px;
+    margin-right: 10px;
+}
+
+.app-text {
+    margin-right: 60px;
+}
+
+.app-text h2 {
+    font-size: 21px;
+    color: #333333;
+}
+
+.app-text p {
+    color: #333333;
+    font-weight: 600;
+    font-size: 14px;
 }
