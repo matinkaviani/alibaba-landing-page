@@ -355,6 +355,34 @@ svg {
         height: 250px;
         object-fit: cover;
     }
+    .inputs {
+        position: relative;
+        transform: none;
+        left: 0;
+        top: 0;
+    }
+    .d-inline-flex {
+        display: block;
+
+    }
+    .filters {
+        display: block;
+        text-align: center;
+    }
+    .filters input {
+        margin-bottom: 10px;
+    }
+    .sliders {
+        margin-top: 10px;
+        display: block;
+        padding: 15px;
+    }
+    .application {
+        display: block;
+    }
+    img {
+        max-width: 100%;
+    }
 }
 
 
