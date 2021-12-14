@@ -327,10 +327,143 @@ a.search-btn {
 .mt-40 {
     margin-top: 40px;
 }
+.mt-80 {
+    margin-top: 80px !important;
+}
 svg {
     vertical-align: middle;
 }
 
+
+
+.container {
+    max-width: 1160px;
+    margin: auto;
+}
+.app-img {
+    margin-left: 60px;
+}
+
+.m-button {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 60px;
+    margin-right: 10px;
+}
+
+.app-text {
+    margin-right: 60px;
+}
+
+.app-text h2 {
+    font-size: 21px;
+    color: #333333;
+}
+
+.app-text p {
+    color: #333333;
+    font-weight: 600;
+    font-size: 14px;
+}
+.color-black {
+    color: #333333;
+}
+.faq {
+    padding: 12px 15px;
+    direction: rtl;
+    border: solid 1px #dadada;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.faq .svg1 {
+    background-color: #E8F9FC;
+    border-radius: 50%;
+    color: #17A2B8;
+    flex: 0 0 auto;
+    margin-left: 12px;
+    padding: 5px;
+    max-width: 25px;
+}
+.svg2 {
+    transform: rotate(180deg);
+    float: left;
+    margin-top: 15px;
+}
+.aboutalibaba p {
+    font-size: 14px;
+    line-height: 30px;
+}
+footer {
+    border-top: solid 1px #cacaca;
+}
+.bg-gray {
+    background: #F6F6F6;
+}
+.aboutalibaba {
+    padding-bottom: 100px;
+}
+.upfooter {
+    display: flex;
+    direction: rtl;
+    margin: 20px;
+}
+
+.upfooter img {
+    max-width: 100px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upfooter p {
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.upfooter h4 {
+    margin-bottom: 0;
+}
+.underupfooter {
+    direction: rtl;
+    display: flex;
+    align-items: end;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: solid 1px #cacaca;
+}
+.font-14 {
+    font-size: 14px;
+}
+.reg-link {
+    color: #0077db;
+    text-decoration: none;
+}
+.marketlink {
+    margin-right: 0.5rem;
+    align-items: center;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 2;
+    padding: 5px 16px;
+    border: 1px solid #dadada;
+    border-radius: 8px;
+    display: inline-flex;
+}
+.marketlink img {
+    margin-left: 10px;
+}
+
+.marketlink {
+    text-decoration: none;
+    color: #333333;
+    vertical-align: middle;
+}
 @media only screen and (max-width: 768px) {
     .topnav {
         display: block;
@@ -391,33 +524,7 @@ svg {
         margin-left: 0;
         margin-top: 20px;
     }
-}
-
-.container {
-    max-width: 1030px;
-}
-.app-img {
-    margin-left: 60px;
-}
-
-.m-button {
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 10px 60px;
-    margin-right: 10px;
-}
-
-.app-text {
-    margin-right: 60px;
-}
-
-.app-text h2 {
-    font-size: 21px;
-    color: #333333;
-}
-
-.app-text p {
-    color: #333333;
-    font-weight: 600;
-    font-size: 14px;
+    .row {
+        display: block;
+    }
 }
