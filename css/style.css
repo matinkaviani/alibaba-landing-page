@@ -330,6 +330,7 @@ a.search-btn {
 svg {
     vertical-align: middle;
 }
+
 @media only screen and (max-width: 768px) {
     .topnav {
         display: block;
