@@ -383,9 +383,18 @@ svg {
     img {
         max-width: 100%;
     }
+    .help-btn {
+        padding: 10px !important;
+    }
+    .app-img {
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
 
-
+.container {
+    max-width: 1030px;
+}
 .app-img {
     margin-left: 60px;
 }
