@@ -1,7 +1,5 @@
 # Alibaba website landing
 
-[Include a brief project description or tagline here.]
-
 ![Project Screenshot](https://raw.githubusercontent.com/matinkaviani/alibaba-landing-page/main/assets/img/1697909578430.png)
 
 ## Table of Contents
