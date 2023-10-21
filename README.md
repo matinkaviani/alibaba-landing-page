@@ -13,12 +13,12 @@
 
 ## Description
 
-[Alibaba website landing page, using HTML5 and CSS3. a practice to make a copy of websites templates.]
+Alibaba website landing page, using HTML5 and CSS3. a practice to make a copy of websites templates.
 
 ## Features
 
-- [Landing page with nothing interactive.]
+- Landing page with nothing interactive.
 
 ## License
 
-[MIT License.]
+MIT License.
